@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Kickstart your new projects with one command",
   "main": "index.js",
+  "bin": {
+    "prova": "./bin/prova"
+  },
   "scripts": {
     "test": "prova test/*"
   },
