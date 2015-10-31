@@ -1,0 +1,35 @@
+{
+  "name": "kik",
+  "version": "0.0.0",
+  "description": "Kickstart your new projects with one command",
+  "main": "index.js",
+  "scripts": {
+    "test": "prova test/*"
+  },
+  "keywords": [
+    "kickstart",
+    "prototype",
+    "build",
+    "create"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/kik.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "cli-form": "^0.1.2",
+    "expand-home-dir": "0.0.2",
+    "format-text": "0.0.3",
+    "install-module": "0.2.0",
+    "local-debug": "0.0.0",
+    "mix-objects": "0.0.3",
+    "mkdirp": "^0.5.1",
+    "new-command": "^1.0.2",
+    "new-struct": "^0.1.1",
+    "serial-loop": "0.0.1",
+    "serially": "^1.0.1",
+    "variable-name": "0.0.2"
+  }
+}

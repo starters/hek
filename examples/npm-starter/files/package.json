@@ -1,0 +1,16 @@
+{
+  "name": "{kik:name}",
+  "version": "0.0.0",
+  "description": "{kik:npm:desc}",
+  "main": "index.js",
+  "scripts": {
+    "test": "{kik:npm:test}"
+  },
+  "keywords": {kik:npm:keywords},
+  "repository": {
+    "url": "{kik:remote}",
+    "type": "git"
+  },
+  "author": "{kik:github}",
+  "license": "BSD"
+}
