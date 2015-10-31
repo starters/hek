@@ -1,6 +1,6 @@
 {
   "name": "kik",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Kickstart your new projects with one command",
   "main": "index.js",
   "bin": {
