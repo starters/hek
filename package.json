@@ -34,5 +34,9 @@
     "serial-loop": "0.0.1",
     "serially": "^1.0.1",
     "variable-name": "0.0.2"
+  },
+  "devDependencies": {
+    "kik-starter": "0.0.x",
+    "prova": "^2.1.2"
   }
 }
