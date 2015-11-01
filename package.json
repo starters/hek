@@ -33,6 +33,7 @@
     "new-struct": "^0.1.1",
     "serial-loop": "0.0.1",
     "serially": "^1.0.1",
+    "slug-to-title": "0.0.2",
     "to-class-name": "0.0.0",
     "to-slug": "0.0.0",
     "variable-name": "0.0.2"
