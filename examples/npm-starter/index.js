@@ -9,8 +9,6 @@ var form = [
   { key: 'test', title: 'Test command', default: 'node test' }
 ];
 
-debugger;
-
 var NPMStarter = struct(Starter, {
   start: start
 });
@@ -27,8 +25,6 @@ function NewNPMStarter (project) {
 }
 
 function start (starter, callback) {
-  debugger;
-
   starter.copy(folder, function (error) {
     starter.render(['README.md', 'package.json'], callback);
   });

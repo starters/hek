@@ -1,4 +1,3 @@
-var exec = require("child_process").exec;
 var kik = require('../');
 var npm = require("./npm-starter");
 
