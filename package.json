@@ -1,6 +1,6 @@
 {
   "name": "kik",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Kickstart your new projects with one command",
   "main": "index.js",
   "bin": {
@@ -25,7 +25,7 @@
     "cli-form": "^0.1.2",
     "expand-home-dir": "0.0.2",
     "format-text": "0.0.3",
-    "install-module": "0.2.0",
+    "install-module": "1.0.0",
     "local-debug": "0.0.0",
     "mix-objects": "0.0.3",
     "mkdirp": "^0.5.1",
