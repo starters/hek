@@ -68,7 +68,7 @@ test('context', function (t) {
 });
 
 test('context with starters', function (t) {
-  t.plan(12);
+  t.plan(18);
 
   var p = NewProject({
     name: 'yolo',
@@ -90,6 +90,9 @@ test('context with starters', function (t) {
   t.equal(vars['kik:folder'], '/tmp/yolo');
   t.equal(vars['kik:remote'], 'git@github.com:azer/yolo.git');
   t.equal(vars['kik:yo'], 'lo');
+  t.equal(vars['kik:variableName'], 'yolo');
+  t.equal(vars['kik:className'], 'Yolo');
+  t.equal(vars['kik:slug'], 'yolo');
 
   vars = p.starters[0].variables();
 
@@ -97,6 +100,9 @@ test('context with starters', function (t) {
   t.equal(vars['kik:folder'], '/tmp/yolo');
   t.equal(vars['kik:remote'], 'git@github.com:azer/yolo.git');
   t.equal(vars['kik:yo'], 'lo');
+  t.equal(vars['kik:variableName'], 'yolo');
+  t.equal(vars['kik:className'], 'Yolo');
+  t.equal(vars['kik:slug'], 'yolo');
   t.equal(vars['kik:npm:name'], 'npm');
   t.equal(vars['kik:npm:folder'], path.join(__dirname, '../examples/npm-starter/files'));
   t.equal(vars['kik:npm:desc'], "let's go somewhere");
