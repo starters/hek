@@ -4,6 +4,7 @@ var npm = require("./npm-starter");
 var myproject = kik({
   name: 'yolo',
   folder: '/tmp/yolo',
+  //starters: [{ module: npm, subfolder: 'ui' }],
   starters: [npm],
   remote: 'azer/yolo',
   context: {
