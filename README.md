@@ -1,6 +1,6 @@
 ## kik
 
-Kickstart your new projects with one command.
+Kickstart your new projects with one command. [Screenshot](https://cldup.com/IX1JbAl6AQ.png)
 
 ## Install
 
