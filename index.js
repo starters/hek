@@ -1,3 +1,1 @@
-var NewProject = require('./lib/project');
-
-module.exports = NewProject;
+module.exports = require('./lib/project');

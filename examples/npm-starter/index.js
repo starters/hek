@@ -1,3 +1,5 @@
+"use strict"
+
 var struct = require("new-struct");
 var path = require("path");
 var Starter = require("kik-starter");
@@ -9,23 +11,18 @@ var form = [
   { key: 'test', title: 'Test command', default: 'node test' }
 ];
 
-var NPMStarter = struct(Starter, {
-  start: start
-});
+class NPMStarter extends Starter {
+  constructor (project) {
+    super('npm', project, folder, form);
+  }
 
-module.exports = NewNPMStarter;
+  start (callback) {
+    var self = this;
 
-function NewNPMStarter (project) {
-  return NPMStarter({
-    name: 'npm',
-    project: project,
-    folder: folder,
-    form: form
-  });
+    this.copy(folder, function (error) {
+      self.render(['README.md', 'package.json'], callback);
+    });
+  }
 }
 
-function start (starter, callback) {
-  starter.copy(folder, function (error) {
-    starter.render(['README.md', 'package.json'], callback);
-  });
-}
+module.exports = NPMStarter;

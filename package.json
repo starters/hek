@@ -1,6 +1,6 @@
 {
   "name": "kik",
-  "version": "0.5.2",
+  "version": "1.0.0",
   "description": "Kickstart your new projects with one command",
   "main": "index.js",
   "bin": {
@@ -30,7 +30,6 @@
     "mix-objects": "0.0.3",
     "mkdirp": "^0.5.1",
     "new-command": "^1.0.2",
-    "new-struct": "^0.1.1",
     "serial-loop": "0.0.1",
     "serially": "^1.0.1",
     "slug-to-title": "0.0.2",

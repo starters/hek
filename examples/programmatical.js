@@ -1,7 +1,7 @@
-var kik = require('../');
+var Project = require('../');
 var npm = require("./npm-starter");
 
-var myproject = kik({
+var myproject = new Project({
   name: 'yolo',
   folder: '/tmp/yolo',
   //starters: [{ module: npm, subfolder: 'ui' }],
