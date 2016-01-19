@@ -1,6 +1,5 @@
 "use strict"
 
-var struct = require("new-struct");
 var path = require("path");
 var Starter = require("kik-starter");
 
