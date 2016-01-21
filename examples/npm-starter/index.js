@@ -16,11 +16,10 @@ class NPMStarter extends Starter {
   }
 
   start (callback) {
-    var self = this;
-
-    this.copy(folder, function (error) {
-      self.render(['README.md', 'package.json'], callback);
-    });
+    this.serially()
+      .run(this.copy.bind(this), [folder])
+      .then(this.render.bind(this), ['README.md', 'package.json'])
+      .done(callback);
   }
 }
 
