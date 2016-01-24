@@ -16,9 +16,9 @@ class NPMStarter extends Starter {
   }
 
   start (callback) {
-    this.serially()
-      .run(this.copy.bind(this), [folder])
-      .then(this.render.bind(this), ['README.md', 'package.json'])
+    this.serial()
+      .run(this.copy)
+      .then(this.render, ['README.md', 'package.json'])
       .done(callback);
   }
 }

@@ -29,13 +29,15 @@
     "local-debug": "0.0.0",
     "mix-objects": "0.0.3",
     "mkdirp": "^0.5.1",
-    "new-command": "^1.0.2",
+    "read-json": "^1.0.0",
     "serial-loop": "0.0.1",
     "serially": "^1.0.1",
     "slug-to-title": "0.0.2",
+    "style-format": "0.0.0",
     "to-class-name": "0.0.0",
     "to-slug": "0.0.0",
-    "variable-name": "0.0.2"
+    "variable-name": "0.0.2",
+    "write-json": "^0.2.2"
   },
   "devDependencies": {
     "kik-starter": "0.0.x",
