@@ -5,7 +5,7 @@ Kickstart your new projects with one command. ![Screenshot](https://cldup.com/IX
 ## Install
 
 ```bash
-$ npm install -g kik
+$ npm install -g starters/kik
 ```
 
 ## Usage
