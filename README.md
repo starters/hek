@@ -8,6 +8,17 @@ Kickstart your new projects with one command. ![Screenshot](https://cldup.com/IX
 $ npm install -g starters/kik
 ```
 
+## The Goal
+
+My goal with this project was saving as much as developer time possible. And I imagined a tool that can learn how to help developer to write code. 
+
+On the other words, we teach computers how to write code, instead of we write. And we can simply accomplish this by creating templates of small or big chunks of code, and building a UI system that lets the developer inserting these templates via human friendly UIs like in the example screenshot.
+
+## What is missing ?
+
+* Letting extensions register sub-commands: this will allow us to insert project-specific templates. 
+* Extending CLI to support sub-commands: so we can run commands like `kik :add-route`. [more examples](https://github.com/starters/redux-starter#usage)
+
 ## Usage
 
 Kik is a command-line tool and a library for creating projects by using starters.
