@@ -14,7 +14,7 @@
     "type": "git"
   },
   "author": "azer",
-  "license": "BSD",
+  "license": "WTFPL",
   "dependencies": {
     "cli-form": "azer/cli-form",
     "expand-home-dir": "azer/expand-home-dir",
