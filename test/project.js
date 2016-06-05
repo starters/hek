@@ -61,10 +61,10 @@ test('context', function (t) {
   p.context.foo = 'bar';
 
   var vars = p.variables();
-  t.equal(vars['kik:name'], 'yolo');
-  t.equal(vars['kik:folder'], '/tmp/yolo');
-  t.equal(vars['kik:remote'], 'git@github.com:azer/yolo.git');
-  t.equal(vars['kik:yo'], 'lo');
+  t.equal(vars['hek:name'], 'yolo');
+  t.equal(vars['hek:folder'], '/tmp/yolo');
+  t.equal(vars['hek:remote'], 'git@github.com:azer/yolo.git');
+  t.equal(vars['hek:yo'], 'lo');
 });
 
 test('context with starters', function (t) {
@@ -86,27 +86,27 @@ test('context with starters', function (t) {
   };
 
   var vars = p.variables();
-  t.equal(vars['kik:name'], 'yolo');
-  t.equal(vars['kik:folder'], '/tmp/yolo');
-  t.equal(vars['kik:remote'], 'git@github.com:azer/yolo.git');
-  t.equal(vars['kik:yo'], 'lo');
-  t.equal(vars['kik:variableName'], 'yolo');
-  t.equal(vars['kik:className'], 'Yolo');
-  t.equal(vars['kik:slug'], 'yolo');
-  t.equal(vars['kik:title'], 'Yolo');
+  t.equal(vars['hek:name'], 'yolo');
+  t.equal(vars['hek:folder'], '/tmp/yolo');
+  t.equal(vars['hek:remote'], 'git@github.com:azer/yolo.git');
+  t.equal(vars['hek:yo'], 'lo');
+  t.equal(vars['hek:variableName'], 'yolo');
+  t.equal(vars['hek:className'], 'Yolo');
+  t.equal(vars['hek:slug'], 'yolo');
+  t.equal(vars['hek:title'], 'Yolo');
 
   vars = p.starters[0].variables();
 
-  t.equal(vars['kik:name'], 'yolo');
-  t.equal(vars['kik:folder'], '/tmp/yolo');
-  t.equal(vars['kik:remote'], 'git@github.com:azer/yolo.git');
-  t.equal(vars['kik:yo'], 'lo');
-  t.equal(vars['kik:variableName'], 'yolo');
-  t.equal(vars['kik:className'], 'Yolo');
-  t.equal(vars['kik:slug'], 'yolo');
-  t.equal(vars['kik:title'], 'Yolo');
-  t.equal(vars['kik:npm:name'], 'npm');
-  t.equal(vars['kik:npm:folder'], path.join(__dirname, '../examples/npm-starter/files'));
-  t.equal(vars['kik:npm:desc'], "let's go somewhere");
-  t.equal(vars['kik:npm:test'], 'npm yo');
+  t.equal(vars['hek:name'], 'yolo');
+  t.equal(vars['hek:folder'], '/tmp/yolo');
+  t.equal(vars['hek:remote'], 'git@github.com:azer/yolo.git');
+  t.equal(vars['hek:yo'], 'lo');
+  t.equal(vars['hek:variableName'], 'yolo');
+  t.equal(vars['hek:className'], 'Yolo');
+  t.equal(vars['hek:slug'], 'yolo');
+  t.equal(vars['hek:title'], 'Yolo');
+  t.equal(vars['hek:npm:name'], 'npm');
+  t.equal(vars['hek:npm:folder'], path.join(__dirname, '../examples/npm-starter/files'));
+  t.equal(vars['hek:npm:desc'], "let's go somewhere");
+  t.equal(vars['hek:npm:test'], 'npm yo');
 });

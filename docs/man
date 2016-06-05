@@ -5,7 +5,7 @@
     COMMANDS
 
       start                      Start a new project. (Default command)
-      install    [modules...]    Install a starter module. e.g kik install redux-starter
+      install    [modules...]    Install a starter module. e.g hek install redux-starter
       link       [name]          Link the starter module in current working directory.
       unlink     [name]          Unlink given starter module.
       list                       List all installed & linked starter modules in the cache.

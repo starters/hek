@@ -1,15 +1,15 @@
-## {kik:name}
+## {hek:name}
 
-{kik:npm:desc}
+{hek:npm:desc}
 
 ## Install
 
 ```bash
-$ npm install {kik:name}
+$ npm install {hek:name}
 ```
 
 ## Usage
 
 ```js
-var {kik:variableName} = require('{kik:name}')
+var {hek:variableName} = require('{hek:name}')
 ```

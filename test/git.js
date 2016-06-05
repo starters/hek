@@ -13,7 +13,7 @@ test('normalize', function (t) {
 
 test('init', function (t) {
   t.plan(2);
-  var p = '/tmp/kik-test-' + Math.floor(Math.random() * 999999);
+  var p = '/tmp/hek-test-' + Math.floor(Math.random() * 999999);
 
   exec('mkdir -p ' + p, function (error) {
     git.init(p, function (error) {

@@ -34,7 +34,7 @@
     "write-json": "0.2.2"
   },
   "devDependencies": {
-    "hek-starter": "starters/hek-starter",
+    "hek-starter": "hek/starter",
     "prova": "azer/prova"
   }
 }

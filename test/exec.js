@@ -43,6 +43,6 @@ test('specifying a folder to run the command', function (t) {
 
 function randomFilenames (prefix, n) {
   return Array.apply(null, { length: n }).map(function (n) {
-    return prefix + 'kik-exec-test-' + Math.floor(Math.random() * 99999999);
+    return prefix + 'hek-exec-test-' + Math.floor(Math.random() * 99999999);
   });
 }

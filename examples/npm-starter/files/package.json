@@ -1,16 +1,16 @@
 {
-  "name": "{kik:name}",
+  "name": "{hek:name}",
   "version": "0.0.0",
-  "description": "{kik:npm:desc}",
+  "description": "{hek:npm:desc}",
   "main": "index.js",
   "scripts": {
-    "test": "{kik:npm:test}"
+    "test": "{hek:npm:test}"
   },
-  "keywords": {kik:npm:keywords},
+  "keywords": {hek:npm:keywords},
   "repository": {
-    "url": "{kik:remote}",
+    "url": "{hek:remote}",
     "type": "git"
   },
-  "author": "{kik:github}",
+  "author": "{hek:github}",
   "license": "BSD"
 }

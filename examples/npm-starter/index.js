@@ -1,7 +1,7 @@
 "use strict"
 
 var path = require("path");
-var Starter = require("kik-starter");
+var Starter = require("starter");
 
 var folder = path.join(__dirname, 'files');
 var form = [
