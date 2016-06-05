@@ -9,12 +9,6 @@
   "scripts": {
     "test": "prova test/*"
   },
-  "keywords": [
-    "kickstart",
-    "prototype",
-    "build",
-    "create"
-  ],
   "repository": {
     "url": "git@github.com:hek/hek.git",
     "type": "git"
