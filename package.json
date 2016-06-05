@@ -1,5 +1,5 @@
 {
-  "name": "kik",
+  "name": "hek",
   "version": "1.3.0",
   "description": "Kickstart your new projects with one command",
   "main": "index.js",
@@ -16,31 +16,31 @@
     "create"
   ],
   "repository": {
-    "url": "git@github.com:azer/kik.git",
+    "url": "git@github.com:hek/hek.git",
     "type": "git"
   },
   "author": "azer",
   "license": "BSD",
   "dependencies": {
-    "cli-form": "^0.1.2",
-    "expand-home-dir": "0.0.2",
-    "format-text": "0.0.3",
-    "install-module": "^1.1.0",
-    "local-debug": "0.0.0",
-    "mix-objects": "0.0.3",
+    "cli-form": "azer/cli-form",
+    "expand-home-dir": "azer/expand-home-dir",
+    "format-text": "azer/format-text",
+    "install-module": "azer/install-module",
+    "local-debug": "azer/local-debug",
+    "mix-objects": "azer/mix-objects",
     "mkdirp": "^0.5.1",
-    "read-json": "^1.0.0",
-    "serial-loop": "0.0.1",
-    "serially": "^1.0.1",
-    "slug-to-title": "0.0.2",
-    "style-format": "0.0.0",
-    "to-class-name": "0.0.0",
-    "to-slug": "0.0.0",
-    "variable-name": "0.0.2",
-    "write-json": "^0.2.2"
+    "read-json": "azer/read-json",
+    "serial-loop": "azer/serial-loop",
+    "serially": "azer/serially",
+    "slug-to-title": "azer/slug-to-title",
+    "style-format": "azer/style-format",
+    "to-class-name": "azer/to-class-name",
+    "to-slug": "azer/to-slug",
+    "variable-name": "azer/variable-name",
+    "write-json": "azer/write-json"
   },
   "devDependencies": {
-    "kik-starter": "0.0.x",
+    "hek-starter": "starters/hek-starter",
     "prova": "^2.1.2"
   }
 }
