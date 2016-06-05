@@ -1,11 +1,11 @@
-## kik
+## hêk
 
 Kickstart your new projects with one command. ![Screenshot](https://cldup.com/IX1JbAl6AQ.png)
 
 ## Install
 
 ```bash
-$ npm install -g starters/kik
+$ npm install -g hek/hek
 ```
 
 ## The Goal
