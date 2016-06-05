@@ -4,7 +4,7 @@
   "description": "Kickstart your new projects with one command",
   "main": "index.js",
   "bin": {
-    "kik": "./bin/kik"
+    "hek": "./bin/hek"
   },
   "scripts": {
     "test": "prova test/*"
