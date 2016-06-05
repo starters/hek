@@ -20,7 +20,7 @@
     "expand-home-dir": "azer/expand-home-dir",
     "format-text": "azer/format-text",
     "install-module": "azer/install-module",
-    "local-debug": "azer/local-debug",
+    "local-debug": "0.0.0",
     "mix-objects": "azer/mix-objects",
     "mkdirp": "^0.5.1",
     "read-json": "azer/read-json",
@@ -31,10 +31,10 @@
     "to-class-name": "azer/to-class-name",
     "to-slug": "azer/to-slug",
     "variable-name": "azer/variable-name",
-    "write-json": "azer/write-json"
+    "write-json": "0.2.2"
   },
   "devDependencies": {
     "hek-starter": "starters/hek-starter",
-    "prova": "^2.1.2"
+    "prova": "azer/prova"
   }
 }
