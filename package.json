@@ -31,7 +31,8 @@
     "to-class-name": "azer/to-class-name",
     "to-slug": "azer/to-slug",
     "variable-name": "azer/variable-name",
-    "write-json": "0.2.2"
+    "write-json": "0.2.2",
+    "new-command": "azer/new-command"
   },
   "devDependencies": {
     "hek-starter": "hek/starter",
