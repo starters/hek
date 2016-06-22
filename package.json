@@ -1,6 +1,6 @@
 {
   "name": "hek",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Kickstart your new projects with one command",
   "main": "index.js",
   "bin": {
