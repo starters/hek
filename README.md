@@ -10,9 +10,9 @@ $ npm install -g hek/hek
 
 ## The Goal
 
-My goal with this project was saving as much as developer time possible. And I imagined a tool that can learn how to help developer to write code. 
+My goal with this project is to save as much developer time as possible. I imagined a tool that can learn how to help a developer to write code. 
 
-On the other words, we teach computers how to write code, instead of we write. And we can simply accomplish this by creating templates of small or big chunks of code, and building a UI system that lets the developer inserting these templates via human friendly UIs like in the example screenshot.
+In other words, we teach computers how to write code, instead of writing it ourselves. And we can accomplish this by creating templates of small or large chunks of code and building a UI that allows the developer to insert these templates via human friendly UIs, as in the screenshot above.
 
 ## What is missing ?
 
